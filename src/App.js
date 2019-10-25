@@ -171,6 +171,7 @@ score() {
   render() {
   return (
     <div className="App">
+    <title>Mastermind</title>
       <Navbar score={this.score}></Navbar>
       <main>
         <Plateau game={this.state.game}></Plateau>
